@@ -1,0 +1,133 @@
+/* style.css */
+.container {
+  width: 100%;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(238, 10, 10);
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  padding-top: 100px;
+  padding-right: 50px;
+}
+
+.nav-item {
+  font-size: 16px;
+}
+
+.hero {
+  display: flex;
+  background-image: url(Gambar/bg3.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 800px;
+  justify-content: center;
+  position: relative;
+    
+}
+
+.service {
+  background-color: aqua;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 500px;
+  justify-content: center;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.content-text {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  flex-direction: space-around;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 10px 0px;
+}
+
+.section-img {
+  margin-top: 15px;
+  background-color: bisque;
+  width: 200px;
+  border-radius: 85%;
+}
+
+.section
+{
+  text-align: left;
+  display: flex;
+}
+
+.section-fix
+{
+  text-align: center;
+}
+
+.about {
+  background-color: rgb(247, 246, 191);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 500px;
+  justify-content: center;
+  position: relative;
+}
+
+.about-text {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  margin-left: 10px;
+  padding: 0px;
+}
+
+.about-txt {
+  text-align: left;
+}
+.about-img {
+  text-align: center;
+  justify-content: center;
+  flex-direction: space-around;
+  margin-left: 500px;
+  padding: 10px 0px;
+}
+
+.contact {
+  background-color: rgb(14, 233, 69);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 900px;
+  justify-content: center;
+  position: relative;
+}
+
+.footer {
+  background-color: rgb(243, 4, 4);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 50px;
+  justify-content: center;
+  position: relative;
+}
